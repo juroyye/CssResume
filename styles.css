@@ -1,0 +1,63 @@
+body{
+    background-image: url(https://th.bing.com/th/id/R.25f4a80a89bf3cc1b61d65031706f6f2?rik=pD5LB5aLoYRIeg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f04%2fBackgrounds-Download-Grey-Wallpaper-HD.png&ehk=%2fJX9ozgSR%2fuxylTqy%2fRX%2fyyASFZXZrBV08yzw8Sqomw%3d&risl=&pid=ImgRaw&r=0);
+}
+
+#header{
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+.header-top{
+    display: flex;
+    text-align: center;
+}
+
+
+#pfp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   flex-grow: 1;
+   border: 1px solid black;
+}
+
+#location{
+    display: flex;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+flex-grow: 2;
+border: 1px solid black;
+justify-content: center;
+align-items: center;
+}
+
+#summary{
+    border: 1px solid black;
+    padding: 1%;
+}
+
+
+#header img{
+    height: 150px;
+    width: 170px;
+}
+
+.main{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#exp, #edu {
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+#exp{
+    width: 40%;
+}
+
+#edu{
+    padding: 1%;
+   width: 60%;
+}
